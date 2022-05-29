@@ -138,10 +138,6 @@ button{
     width: 226px;
 }
 
-li > .input-text {
-    width: 226px
-}
-
 .button-image {
     height: 2em;
     transform: rotateZ(45deg);
