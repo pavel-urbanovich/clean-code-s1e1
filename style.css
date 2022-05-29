@@ -5,18 +5,18 @@
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.title-img {
+.header__img {
     width: 100%;
 }
 
-.aaa .more_inf {
+.header .header__link {
     font-family: fantasy, cursive;
 }
 
@@ -27,7 +27,7 @@
 
 }
 
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -39,7 +39,7 @@
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.section__wrapper {
     display: flex;
 }
 
@@ -59,7 +59,7 @@ button{
 }
 
 .delete,
-.edit {
+.button {
     background: none;
     border: 0px;
     color: #888;
@@ -70,13 +70,13 @@ button{
 }
 
 .delete:hover, 
-.edit:hover {
+.button:hover {
     color: #3a3A3a;
 }
 
 /* Heading */
 h3,
-.new-task {
+.section__title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -105,7 +105,7 @@ h3,
 }
 
 /* New Task */
-.new-task {
+.section__title {
     display: block;
     margin: 0 0 20px;
 }
