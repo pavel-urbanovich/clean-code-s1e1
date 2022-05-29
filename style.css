@@ -48,15 +48,18 @@ ul {
     padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
     list-style: none;
 }
 
-input,button{
+input,
+button{
     outline: none;
 }
 
-.delete,.edit {
+.delete,
+.edit {
     background: none;
     border: 0px;
     color: #888;
@@ -66,7 +69,8 @@ input,button{
     cursor: pointer;
 }
 
-.delete:hover, .edit:hover {
+.delete:hover, 
+.edit:hover {
     color: #3a3A3a;
 }
 
@@ -130,7 +134,8 @@ input#new-task {
     margin: 0 10px;
 }
 
-.editMode .input-text {
+.editMode 
+.input-text {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
