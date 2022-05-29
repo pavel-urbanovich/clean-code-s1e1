@@ -49,8 +49,7 @@ ul {
     padding: 0px;
 }
 
-li, 
-h3 {
+li {
     list-style: none;
 }
 
@@ -76,7 +75,6 @@ button{
 }
 
 /* Heading */
-h3,
 .section__title {
     color: #333;
     font-weight: 700;
