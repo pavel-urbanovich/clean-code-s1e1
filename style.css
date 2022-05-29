@@ -156,19 +156,18 @@ button{
 }
 
 /* Edit Task */
-ul li 
+.task-list__item 
 .input-text {
     display: none
 }
 
-ul li.task-list__item_mode
+.task-list__item_mode
 .input-text {
     display: inline-block;
     width: 224px
 }
 
-ul 
-li.task-list__item_mode
-label {
+.task-list__item_mode
+.task {
     display: none;
 }
