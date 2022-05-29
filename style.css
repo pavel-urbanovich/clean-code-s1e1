@@ -149,8 +149,8 @@ button{
 }
 
 /* Completed */
-ul.task-list_completed
-label {
+.task-list_completed
+.task {
     text-decoration: line-through;
     color: #888;
 }
