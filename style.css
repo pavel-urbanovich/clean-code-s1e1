@@ -121,7 +121,8 @@ button{
     align-items: center;
 }
 
-.task-list_completed .input-checkbox {
+.task-list_completed
+.input-checkbox {
     vertical-align: middle;
 }
 
@@ -141,32 +142,39 @@ li > .input-text {
     width: 226px
 }
 
-button.button_del img {
+button.button_del
+img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.button_del img:hover {
+button.button_del
+img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul.task-list_completed label {
+ul.task-list_completed
+label {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul li .input-text {
+ul li 
+.input-text {
     display: none
 }
 
-ul li.task-list__item_mode .input-text {
+ul li.task-list__item_mode
+.input-text {
     display: inline-block;
     width: 224px
 }
 
-ul li.task-list__item_mode label {
+ul 
+li.task-list__item_mode
+label {
     display: none;
 }
